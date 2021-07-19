@@ -15,4 +15,9 @@ The screen is best at displaying high contrast images. Here are sources for good
 
 Note that each images needs to be cropped to 240 x 320 px and saved as a Windows Bitmap [howto](https://learn.adafruit.com/creating-your-first-tilemap-game-with-circuitpython/indexed-bmp-graphics). If you don't save them as exactly this they'll fail to load and you may overflow the PyPortal's fragile memory.
 
+This is by far the most frustrating part of using this. In addition to the tutorial above, a few notes:
+
+* I use a Mac; if I don't see a preview of a .bmp file on my machine I know it will not load on the PyPortal and cause it to crash
+* When exporting a .bmp in Gimp, I have to set the "Run-Length Encoded" option to true in order to create a working file
+
 Some sample images to get you started are included in a folder called *topics*.
