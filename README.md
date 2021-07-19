@@ -12,6 +12,7 @@ The screen is best at displaying high contrast images. Here are sources for good
 * Gustave Dore's London series at the [British Library](https://www.bl.uk/collection-items/london-illustrations-by-gustave-dor#)
 * The [Tate](https://www.tate.org.uk/art/artworks/hogarth-gin-lane-t01799)
 * [Albrecht Durer](https://www.albrecht-durer.org)
+* The Rijks Museum's [RijksStudio](https://www.rijksmuseum.nl/en/rijksstudio)
 
 Note that each images needs to be cropped to 240 x 320 px and saved as a Windows Bitmap [howto](https://learn.adafruit.com/creating-your-first-tilemap-game-with-circuitpython/indexed-bmp-graphics). If you don't save them as exactly this they'll fail to load and you may overflow the PyPortal's fragile memory.
 
