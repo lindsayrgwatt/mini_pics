@@ -57,16 +57,17 @@ while True:
     board.DISPLAY.show(group)
 
     # Fade in
-    for x in range(51):
-        display.brightness = x * 0.02
-        time.sleep(1)
+    for x in range(10):
+        display.brightness = (x + 1) * 0.1
+        time.sleep(6)
 
+    # Show each image for 3 minutes
     time.sleep(180)
 
     # Fade out
-    for x in range(51):
-        display.brightness = 1 - (x * 0.02)
-        time.sleep(1)
+    for x in range(10):
+        display.brightness = 1 - ((x + 1) * 0.1)
+        time.sleep(6)
 
     group.pop()
     del tile_grid
