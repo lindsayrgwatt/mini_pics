@@ -3,6 +3,8 @@ I've always wanted a tiny picture frame that could showcase interesting prints c
 
 This project uses an [Adafruit PyPortal](https://www.adafruit.com/product/4116) to display some low resolution images that are stored on an SD card.
 
+*Update* 10/24 - added version ```codev2.py``` that calls a server to refresh images.
+
 There's also a case you 3D print to enclose the device. Mine sits next to my screen, propped up by the USB cable powering the PyPortal.
 
 The screen is best at displaying high contrast images. Here are sources for good images:
