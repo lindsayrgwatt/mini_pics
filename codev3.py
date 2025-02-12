@@ -78,7 +78,7 @@ def download_image(image_url, filename="/sd/background.bmp"):
 
 # Function to fetch and display image
 def update_display():
-    #try:
+    try:
         print(f"Fetching image data from {API_URL}...")
 
         # Fetch raw JSON response first
@@ -102,8 +102,8 @@ def update_display():
                 pyportal.set_background(local_filename)
 
         return display_time * 60
-    #except Exception as e:
-    #    print(f"Error fetching or displaying image: {e}")
+    except Exception as e:
+        print(f"Error fetching or displaying image: {e}")
         return 5 * 60  # Default wait time if error occurs
 
 # Main loop
